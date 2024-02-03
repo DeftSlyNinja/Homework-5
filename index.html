@@ -6,11 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    
     <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    
     <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 
     <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
 
 
 
@@ -19,13 +22,13 @@
 
 <body>
     <!-- Homepage -->
-    <div data-role="page" id="home">
+    <div data-role="page" id="home" data-theme='b'>
         <!-- Home Page Header -->
-        <div data-role="header" data-theme='e'>
+        <div data-role="header" data-theme='b'>
             <!-- Navigation Bar -->
-            <div data-role="navbar" data-theme='e'>
+            <div data-role="navbar" data-theme='b'>
                 <ul>
-                    <li><a href="#home" data-transition="pop">Home Page</a></li>
+                    <li><a href="#home" data-transition="slideup">Home Page</a></li>
                     <li><a href="#backlog" data-transition="slideup">Backlog</a></li>
                     <li><a href="#search-filter" data-transition="slideup">Search / Filter</a></li>
                     <li><a href="#add" data-transition="slideup">Add Game</a></li>
@@ -35,7 +38,7 @@
             <h2>Homepage</h2>
         </div>
         <!-- Home Page Content -->
-        <div data-role="content" data-theme='e'>
+        <div data-role="content" data-theme='b'>
             <!-- Description of the site -- we can consolidate if we'd like -->
             <p>This website helps you keep track of your backlog of video games and allows you to filter them by genre
                 or search for them by name.</p>
@@ -49,13 +52,13 @@
         </div>
     </div>
     <!-- Backlog -->
-    <div data-role="page" id="backlog">
+    <div data-role="page" id="backlog" data-theme='b'>
         <!-- Backlog Page Header -->
-        <div data-role="header" data-theme='e'>
+        <div data-role="header" data-theme='b'>
             <!-- Navigation Bar -->
-            <div data-role="navbar" data-theme='e'>
+            <div data-role="navbar" data-theme='b'>
                 <ul>
-                    <li><a href="#home" data-transition="pop">Home Page</a></li>
+                    <li><a href="#home" data-transition="slideup">Home Page</a></li>
                     <li><a href="#backlog" data-transition="slideup">Backlog</a></li>
                     <li><a href="#search-filter" data-transition="slideup">Search / Filter</a></li>
                     <li><a href="#add" data-transition="slideup">Add Game</a></li>
@@ -65,7 +68,7 @@
             <h2>Backlog</h2>
         </div>
         <!-- Backlog Page Content -->
-        <div data-role="content" data-theme='e'>
+        <div data-role="content" data-theme='b'>
             <!-- Backlog List w/ sample entries -->
             <ul data-role="listview" id="backlogUL">
                 <li>Sample Text</li>
@@ -81,13 +84,13 @@
         </div>
     </div>
     <!-- Search / Filter -->
-    <div data-role="page" id="search-filter">
+    <div data-role="page" id="search-filter" data-theme='b'>
         <!-- Search / Filter Page Header -->
-        <div data-role="header" data-theme='e'>
+        <div data-role="header" data-theme='b'>
             <!-- Navigation Bar -->
-            <div data-role="navbar" data-theme='e'>
+            <div data-role="navbar" data-theme='b'>
                 <ul>
-                    <li><a href="#home" data-transition="pop">Home Page</a></li>
+                    <li><a href="#home" data-transition="slideup">Home Page</a></li>
                     <li><a href="#backlog" data-transition="slideup">Backlog</a></li>
                     <li><a href="#search-filter" data-transition="slideup">Search / Filter</a></li>
                     <li><a href="#add" data-transition="slideup">Add Game</a></li>
@@ -97,7 +100,7 @@
             <h2>Search / Filter</h2>
         </div>
         <!-- Search / Filter Page Content -->
-        <div data-role="content" data-theme='e'>
+        <div data-role="content" data-theme='b'>
             <!-- Title Search -->
             <label for="searchEntry">Search by title:</label>
             <input type="text" value="" id="searchEntry">
@@ -127,13 +130,13 @@
         </div>
     </div>
     <!-- New Game -->
-    <div data-role="page" id="add">
+    <div data-role="page" id="add" data-theme='b'>
         <!-- Add Game Page Header -->
-        <div data-role="header" data-theme='e'>
+        <div data-role="header" data-theme='b'>
             <!-- Navigation Bar -->
-            <div data-role="navbar" data-theme='e'>
+            <div data-role="navbar" data-theme='b'>
                 <ul>
-                    <li><a href="#home" data-transition="pop">Home Page</a></li>
+                    <li><a href="#home" data-transition="slideup">Home Page</a></li>
                     <li><a href="#backlog" data-transition="slideup">Backlog</a></li>
                     <li><a href="#search-filter" data-transition="slideup">Search / Filter</a></li>
                     <li><a href="#add" data-transition="slideup">Add Game</a></li>
@@ -143,7 +146,7 @@
             <h2>Add Game</h2>
         </div>
         <!-- New Game Page Content -->
-        <div data-role="content" data-theme='e'>
+        <div data-role="content" data-theme='b'>
             <!-- Title Field -->
             <label for="title">Title:</label>
             <input type="text" value="" id="title">
@@ -165,7 +168,7 @@
             <!-- Add Game Button -->
             <button id="addButton">Add Game</button>
             <!-- Confirmation text so the user knows the game was entered. -->
-            <p id="addConfirm">Confirmation text here</p>
+            <p id="addConfirm"></p>
         </div>
 
         <div data-role="footer" data-theme='b'>

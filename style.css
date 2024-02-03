@@ -19,3 +19,6 @@
   font-family:sans-serif;
 }
 
+#home > div.ui-content.ui-body-b {
+  background-color: #ff0000; /* Your desired background color */
+}
