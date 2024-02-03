@@ -1,4 +1,21 @@
 .home
 {
   background-color: lightgreen;
+  font-family:arial;
 }
+[role="navbar"]
+{
+  background-color: azure;
+  font-family:sans-serif;
+}
+[role="footer"]
+{
+  background-color:coral;
+  font-family:sans-serif;
+}
+[role="page"]
+{
+  background-color: lightblue;
+  font-family:sans-serif;
+}
+
