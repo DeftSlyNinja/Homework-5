@@ -1,17 +1,30 @@
-
-[role="navbar"]
+#home > div.ui-header.ui-bar-b
 {
-  background-color: azure;
+  background-color: rgb(134, 97, 169);
   font-family:sans-serif;
 }
-[role="footer"]
+#home > div.ui-footer.ui-bar-b
 {
   background-color:coral;
   font-family:sans-serif;
 }
-[role="page"]
+#home > div.ui-content.ui-body-b
 {
-  background-color: lightblue;
-  font-family:sans-serif;
+  background-color:rgb(90, 179, 149);
+  font-family:'Courier New', Courier, monospace;
 }
-
+#backlog > div.ui-header.ui-bar-b
+{
+  background-color:blue;
+  font-family:'Times New Roman', Times, serif;
+}
+#backlog > div.ui-footer.ui-bar-b
+{
+  background-color: chocolate;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#search-filter > div.ui-footer.ui-bar-b
+{
+  background-color:brown;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
