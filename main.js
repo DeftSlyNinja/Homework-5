@@ -51,6 +51,7 @@ function createBacklog() {
         let link = document.createElement("a");
         link.href = element.link;
         link.target = "_blank";
+        link.className = "ui-btn ui-btn-icon-right ui-icon-carat-r";
         link.innerHTML = element.prio + " -  " + element.title + " (" + element.genre + ")";
         li.appendChild(link);
         backlogUL.appendChild(li);
@@ -67,6 +68,7 @@ function createFilteredList() {
             let link = document.createElement("a");
             link.href = game.link;
             link.target = "_blank";
+            link.className = "ui-btn ui-btn-icon-right ui-icon-carat-r";
             link.innerHTML = game.prio + "-  " + game.title + " (" + game.genre + ")";
             li.appendChild(link);
             filteredUL.appendChild(li);
@@ -84,6 +86,7 @@ function searchBacklog() {
             let link = document.createElement("a");
             link.href = game.link;
             link.target = "_blank";
+            link.className = "ui-btn ui-btn-icon-right ui-icon-carat-r";
             link.innerHTML = game.prio + "-  " + game.title + " (" + game.genre + ")";
             li.appendChild(link);
             filteredUL.appendChild(li);

@@ -1,98 +1,62 @@
-#home > div.ui-header.ui-bar-b
-{
-  background-color: rgb(134, 97, 169);
-  font-family:sans-serif;
+div.ui-header.ui-bar-b > div > ul > li.ui-block-a > a {
+  background-color: rgba(38, 0, 255, 0.747);
+
 }
-#home > div.ui-footer.ui-bar-b
-{
-  background-color:coral;
-  font-family:sans-serif;
+
+div.ui-header.ui-bar-b > div > ul > li.ui-block-b > a {
+  background-color: rgba(38, 0, 255, 0.747);
+
 }
-#home > div.ui-content.ui-body-b
-{
-  background-color:rgb(90, 179, 149);
-  font-family:'Courier New', Courier, monospace;
+
+div.ui-header.ui-bar-b > div > ul > li.ui-block-c > a {
+  background-color: rgba(38, 0, 255, 0.747);
+
 }
-#backlog > div.ui-header.ui-bar-b
-{
-  background-color:blue;
-  font-family:'Times New Roman', Times, serif;
+
+div.ui-header.ui-bar-b > div > ul > li.ui-block-d > a {
+  background-color: rgba(38, 0, 255, 0.747);
+
 }
-#backlog > div.ui-footer.ui-bar-b
-{
-  background-color: chocolate;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+#home > div.ui-content.ui-body-b {
+  background-color: rgb(37, 87, 252);
 }
-#search-filter > div.ui-footer.ui-bar-b
-{
-  background-color:brown;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+#backlog > div.ui-content.ui-body-b {
+  background-color: rgb(37, 87, 252);
 }
-#add > div.ui-footer.ui-bar-b
-{
+
+#search-filter > div.ui-content.ui-body-b {
+  background-color: rgb(37, 87, 252);
+}
+
+#add > div.ui-content.ui-body-b {
+  background-color: rgb(37, 87, 252);
+}
+
+h2 {
+  background-color: rgba(0, 140, 255, 0.747);
+  border-radius: 10px;
+}
+
+div.ui-header.ui-bar-b > div > ul > li:hover {
+  background-color: yellow;
+}
+
+#backlogUL > li {
+  padding: 3px;
+  margin: 5px;
+}
+
+#backlogUL > li > a:hover {
   background-color: darkblue;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-#add > div.ui-header.ui-bar-b
-{
-  background-color: firebrick;
-  font-family:fantasy;
+
+#filteredUL > li {
+  padding: 3px;
+  margin: 5px;
 }
-#add > div.ui-content.ui-body-b > label:nth-child(1)
-{
-  background-color: burlywood;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-#add > div.ui-content.ui-body-b > label:nth-child(3)
-{
-  background-color: darkcyan;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-#addButton
-{
-  background-color:fuchsia;
-  font-family:'Times New Roman', Times, serif;
-}
-#add > div.ui-content.ui-body-b > label:nth-child(7)
-{
-  background-color: darkkhaki;
-  font-family:'Courier New', Courier, monospace;
-}
-#add > div.ui-content.ui-body-b > label:nth-child(5)
-{
-  background-color: blue;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-#search-filter > div.ui-header.ui-bar-b > h2
-{
-  background-color:brown;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-#searchButton
-{
-  background-color: blueviolet;
-  font-family:'Courier New', Courier, monospace;
-}
-#search-filter > div.ui-content.ui-body-b > label:nth-child(4)
-{
-  background-color: rgb(65, 106, 23);
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-#search-filter > div.ui-content.ui-body-b > label:nth-child(1)
-{
-  background-color: burlywood;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-#filterButton
-{
-  background-color: cadetblue;
-  font-family:'Courier New', Courier, monospace;
-}
-#filteredUL
-{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-#search-filter > div.ui-content.ui-body-b > div.ui-select
-{
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+#filteredUL > li > a:hover {
+  background-color: darkblue;
 }
