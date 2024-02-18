@@ -60,3 +60,10 @@ div.ui-header.ui-bar-b > div > ul > li:hover {
 #filteredUL > li > a:hover {
   background-color: darkblue;
 }
+
+table, th, td{
+  border: 10px solid rgb(125, 200, 243);
+  border-collapse: collapse;
+  padding: 5px;
+  margin-bottom: 20px;
+}
