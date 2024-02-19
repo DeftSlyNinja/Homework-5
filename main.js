@@ -11,8 +11,6 @@ let GameObject = function (pID, pTitle, pGenre, pLink, pPriority) {
 GameArray.push(new GameObject(1, "Persona 3", "RPG", "https://store.steampowered.com/app/2161700/Persona_3_Reload/", 1));
 GameArray.push(new GameObject(2, "Call of Duty", "FPS", "https://store.steampowered.com/app/1938090/Call_of_Duty/", 2));
 GameArray.push(new GameObject(3, "XCOM", "Strategy", "https://store.steampowered.com/app/200510/XCOM_Enemy_Unknown/", 3));
-GameArray.push(new GameObject(4, "Lies Of P", "RPG", "https://www.playstation.com/en-us/games/lies-of-p/", 4));
-GameArray.push(new GameObject(5, "Final Fantasy XVI", "RPG", "https://www.playstation.com/en-us/games/final-fantasy-xvi/", 5));
 
 document.addEventListener("DOMContentLoaded", function (event) {
 
