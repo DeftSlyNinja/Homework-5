@@ -1,7 +1,7 @@
 let GameArray = [];
 
 let GameObject = function (pID, pTitle, pGenre, pLink, pPriority) {
-    this.ID = pID;
+    this.ID = generateID();
     this.title = pTitle;
     this.genre = pGenre;
     this.link = pLink;
@@ -101,7 +101,7 @@ function createBacklog() {
 
 function openYouTube(which) {
     for (i = 0; i < GameArray.length; i++) {
-        if (which == GameArray[i].prio) {
+        if (which == GameArray[i].ID) {
             window.open(GameArray[i].link);
         }
     }
@@ -142,4 +142,9 @@ function searchBacklog() {
         }})
     
     searchEntry.innerHTML = "";
+}
+
+function generateID() {
+    let newID = Math.random().toString(16).slice(5);
+    return newID;
 }
